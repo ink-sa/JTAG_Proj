@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">167</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">173</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">179</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">185</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">191</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">197</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">203</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">209</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">215</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">227</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">233</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">239</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">TAP_FSM.v</arg>&quot; line <arg fmt="%d" index="2">245</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">155</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">167</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">173</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">179</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">184</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">189</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">194</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">200</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">206</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">211</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">216</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">226</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">231</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">237</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">BIST_FSM.v</arg>&quot; line <arg fmt="%d" index="2">243</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">209</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">215</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">227</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">233</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">239</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">245</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">251</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">257</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">263</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">269</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">275</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">281</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">287</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">293</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="old" >&quot;<arg fmt="%s" index="1">FUNCTION_Module.v</arg>&quot; line <arg fmt="%d" index="2">299</arg>: Parameter <arg fmt="%d" index="3">1</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">i</arg>&gt; in unit &lt;<arg fmt="%s" index="2">BIST_mem</arg>&gt; has a constant value of <arg fmt="%s" index="3">100000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">4096</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">mem</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">def</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">01</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ID_code</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00010010011000010000000010010011</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Mem_res</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BIST_FSM_Decoder_M</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Out_buf_res&gt; &lt;Bufer_res&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Output_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BIST_out_bufer_M</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Output_9&gt; &lt;Output_10&gt; &lt;Output_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Output_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BIST_out_bufer_M</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Output_13&gt; &lt;Output_14&gt; &lt;Output_15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Output_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">BIST_out_bufer_M</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Output_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">BIST_out_bufer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Output_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">BIST_out_bufer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Output_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">BIST_out_bufer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Output_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">BIST_out_bufer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Mem_res</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BIST_FSM_Decoder</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Out_buf_res&gt; &lt;Bufer_res&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Output_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BIST_out_bufer</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Output_9&gt; &lt;Output_10&gt; &lt;Output_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

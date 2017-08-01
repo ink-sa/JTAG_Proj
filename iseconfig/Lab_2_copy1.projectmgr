@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab_2_copy1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/TAP_and_UUL H:|Xilinx_ISE|Lab_2_copy1|TAP_and_UUL.v/TAP_M - TAP_CONTROLLER/BS_reg_M - BS_reg</ClosedNode>
+         <ClosedNode>/TAP_and_UUL H:|Xilinx_ISE|Lab_2_copy1|TAP_and_UUL.v/TAP_M - TAP_CONTROLLER/Bypass_reg_M - Bypass_reg</ClosedNode>
+         <ClosedNode>/TAP_and_UUL H:|Xilinx_ISE|Lab_2_copy1|TAP_and_UUL.v/TAP_M - TAP_CONTROLLER/ID_reg_M - ID_reg</ClosedNode>
+         <ClosedNode>/TAP_and_UUL H:|Xilinx_ISE|Lab_2_copy1|TAP_and_UUL.v/TAP_M - TAP_CONTROLLER/Instruction_reg_M - Instruction_reg</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>TAP_FSM_M - TAP_FSM (H:/Xilinx_ISE/Lab_2_copy1/FSM.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ac000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ac0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>TAP_FSM_M - TAP_FSM (H:/Xilinx_ISE/Lab_2_copy1/FSM.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000a000000001000000000000009d0000000100000000000000660000000100000000000000da0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>BP_reg.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BSC_tb H:|Xilinx_ISE|Lab_2_copy1|BSC_tb.v</ClosedNode>
+         <ClosedNode>/FSM_tb H:|Xilinx_ISE|Lab_2_copy1|FSM_tb.v</ClosedNode>
+         <ClosedNode>/TB_ALL H:|Xilinx_ISE|Lab_2_copy1|TB_ALL.v</ClosedNode>
+         <ClosedNode>/TB_BP_reg H:|Xilinx_ISE|Lab_2_copy1|TB_BP_reg.v</ClosedNode>
+         <ClosedNode>/TB_BS_reg H:|Xilinx_ISE|Lab_2_copy1|TB_BS_reg.v</ClosedNode>
+         <ClosedNode>/TB_DR_MUX H:|Xilinx_ISE|Lab_2_copy1|TB_DR_MUX.v</ClosedNode>
+         <ClosedNode>/TB_D_trigger H:|Xilinx_ISE|Lab_2_copy1|TB_D_trigger.v</ClosedNode>
+         <ClosedNode>/TB_FSM_Decoder H:|Xilinx_ISE|Lab_2_copy1|TB_FSM_Decoder.v</ClosedNode>
+         <ClosedNode>/TB_FUNCTION_Module H:|Xilinx_ISE|Lab_2_copy1|TB_FUNCTION_Module.v</ClosedNode>
+         <ClosedNode>/TB_FUNCTION_Module_2 H:|Xilinx_ISE|Lab_2_copy1|TB_FUNCTION_Module_2.v</ClosedNode>
+         <ClosedNode>/TB_ID_reg H:|Xilinx_ISE|Lab_2_copy1|TB_ID_reg.v</ClosedNode>
+         <ClosedNode>/TB_IR H:|Xilinx_ISE|Lab_2_copy1|TB_IR.v</ClosedNode>
+         <ClosedNode>/TB_IR_Decoder H:|Xilinx_ISE|Lab_2_copy1|TB_IR_Decoder.v</ClosedNode>
+         <ClosedNode>/TB_REG_TCK_Former H:|Xilinx_ISE|Lab_2_copy1|TB_REG_TCK_Former.v</ClosedNode>
+         <ClosedNode>/TB_TAP_CONTROLLER H:|Xilinx_ISE|Lab_2_copy1|TB_TAP_CONTROLLER.v</ClosedNode>
+         <ClosedNode>/TB_TAP_and_UUL H:|Xilinx_ISE|Lab_2_copy1|TB_TAP_and_UUL.v</ClosedNode>
+         <ClosedNode>/tb_tck_former H:|Xilinx_ISE|Lab_2_copy1|tb_tck_former.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>FSM_tb (H:/Xilinx_ISE/Lab_2_copy1/FSM_tb.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000166000000020000000000000000000000000200000064ffffffff000000810000000300000002000001660000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>FSM_tb (H:/Xilinx_ISE/Lab_2_copy1/FSM_tb.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

@@ -1,0 +1,65 @@
+NET "TDI" PULLUP;
+NET "TMS" PULLUP;
+NET "TCK" IOSTANDARD = LVCMOS33;
+NET "TDI" IOSTANDARD = LVCMOS33;
+NET "TDO" IOSTANDARD = LVCMOS33;
+NET "TMS" IOSTANDARD = LVCMOS33;
+
+
+NET "TCK2" IOSTANDARD = LVCMOS33;
+NET "TDI2" IOSTANDARD = LVCMOS33;
+NET "TDO2" IOSTANDARD = LVCMOS33;
+NET "TMS2" IOSTANDARD = LVCMOS33;
+
+
+NET "TCK" LOC = AB19;
+NET "TDI" LOC = AA21;
+NET "TCK2" LOC = V16;
+NET "TDI2" LOC = V14;
+NET "TDO" LOC = AB21;
+NET "TDO2" LOC = V15;
+NET "TMS" LOC = AA19;
+NET "TMS2" LOC = W16;
+
+
+# PlanAhead Generated IO constraints 
+
+NET "clk_50MHz" IOSTANDARD = LVCMOS33;
+NET "Par_out[3]" IOSTANDARD = LVCMOS33;
+NET "Par_out[2]" IOSTANDARD = LVCMOS33;
+NET "Par_out[1]" IOSTANDARD = LVCMOS33;
+NET "Par_out[0]" IOSTANDARD = LVCMOS33;
+NET "Par_in[0]" IOSTANDARD = LVCMOS33;
+NET "Par_in[2]" IOSTANDARD = LVCMOS33;
+NET "Par_in[3]" IOSTANDARD = LVCMOS33;
+NET "Par_in[4]" IOSTANDARD = LVCMOS33;
+NET "Par_in[5]" IOSTANDARD = LVCMOS33;
+NET "Par_in[1]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "Par_in[0]" LOC = V8;
+NET "Par_in[1]" LOC = U10;
+NET "Par_in[2]" LOC = U8;
+NET "Par_in[3]" LOC = T9;
+NET "clk_50MHz" LOC = E12;
+NET "Par_in[4]" LOC = T15;
+NET "Par_in[5]" LOC = T16;
+
+# PlanAhead Generated IO constraints 
+
+NET "Par_in[5]" PULLDOWN;
+NET "Par_in[4]" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "Par_out[0]" LOC = R20;
+NET "Par_out[1]" LOC = T19;
+NET "Par_out[2]" LOC = U20;
+NET "Par_out[3]" LOC = U19;
+
+
+NET "TCK" CLOCK_DEDICATED_ROUTE = FALSE;
+# 5Mhz
+NET "TCK" PERIOD = 200 ns;
+

@@ -1,0 +1,28 @@
+Command line:
+   TB_JTAG_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54260
+
+Mon Jan 02 18:05:51 2017
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 1503.89 Meg
+
+ Total Signals          : 1182
+ Total Nets             : 412
+ Total Signal Drivers   : 285
+ Total Blocks           : 264
+ Total Primitive Blocks : 192
+ Total Processes        : 481
+ Total Traceable Variables  : 327
+ Total Scalar Nets and Variables : 5536
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 874.709 Meg
+
+Mon Jan 02 18:18:29 2017
+

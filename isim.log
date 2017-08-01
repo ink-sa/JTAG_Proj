@@ -1,0 +1,28 @@
+ISim log file
+Running: H:\Lab_2\TB_BIST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb H:/Lab_2/TB_BIST_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+                   0:T_L_R
+                   0:state0
+                   0:4'b0000
+Finished circuit initialization process.
+                 110:R_T_I
+                 130:S_DR_Scan
+                 150:S_IR_Scan
+                 170:Cap_IR
+                 190:Sh_IR
+                 250:Ex1_IR
+                 270:Up_IR
+                 290:S_DR_Scan
+                 310:Cap_DR
+                 330:Sh_DR
+                 650:Ex1_DR
+                 670:Up_DR
+                 690:R_T_I
+                 710:state3
+                 730:state4

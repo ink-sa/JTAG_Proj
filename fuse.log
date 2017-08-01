@@ -1,0 +1,96 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o H:/Lab_2/TB_BIST_isim_beh.exe -prj H:/Lab_2/TB_BIST_beh.prj work.TB_BIST work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/Lab_2/MUX_2.v" into library work
+Analyzing Verilog file "H:/Lab_2/D_trigger_set.v" into library work
+Analyzing Verilog file "H:/Lab_2/D_trigger_reset.v" into library work
+Analyzing Verilog file "H:/Lab_2/D_trigger.v" into library work
+Analyzing Verilog file "H:/Lab_2/Instruction_reg_cell_set.v" into library work
+Analyzing Verilog file "H:/Lab_2/Insruction_reg_cell_reset.v" into library work
+Analyzing Verilog file "H:/Lab_2/ID_reg_cell.v" into library work
+Analyzing Verilog file "H:/Lab_2/BSC.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_reg_cell_reset.v" into library work
+Analyzing Verilog file "H:/Lab_2/TAP_FSM.v" into library work
+Analyzing Verilog file "H:/Lab_2/Sel_MUX.v" into library work
+Analyzing Verilog file "H:/Lab_2/REG_TCK_Former.v" into library work
+Analyzing Verilog file "H:/Lab_2/OUT_TRIG.v" into library work
+Analyzing Verilog file "H:/Lab_2/Log_test_clk_generator.v" into library work
+Analyzing Verilog file "H:/Lab_2/I_Decoder.v" into library work
+Analyzing Verilog file "H:/Lab_2/Instruction_reg.v" into library work
+Analyzing Verilog file "H:/Lab_2/ID_reg.v" into library work
+Analyzing Verilog file "H:/Lab_2/FSM_Decoder.v" into library work
+Analyzing Verilog file "H:/Lab_2/For_logic_clk.v" into library work
+Analyzing Verilog file "H:/Lab_2/EN_BUF.v" into library work
+Analyzing Verilog file "H:/Lab_2/DR_MUX.v" into library work
+Analyzing Verilog file "H:/Lab_2/DEMUX_2.v" into library work
+Analyzing Verilog file "H:/Lab_2/BS_register.v" into library work
+Analyzing Verilog file "H:/Lab_2/BP_reg.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_reg.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_out_bufer.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_mem.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_FSM_Decoder.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_FSM.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_counter.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_Comparator.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_Comand_Decoder.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_bufer.v" into library work
+Analyzing Verilog file "H:/Lab_2/TAP_CONTROLLER.v" into library work
+Analyzing Verilog file "H:/Lab_2/FUNCTION_Module.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_Mode_MUX.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_Mode_DEMUX.v" into library work
+Analyzing Verilog file "H:/Lab_2/BIST_block.v" into library work
+Analyzing Verilog file "H:/Lab_2/TAP_and_UUL.v" into library work
+Analyzing Verilog file "H:/Lab_2/TB_BIST.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module MUX_2
+Compiling module BIST_Mode_MUX_default
+Compiling module TAP_FSM
+Compiling module FSM_Decoder
+Compiling module D_trigger
+Compiling module D_trigger_reset
+Compiling module Insruction_reg_cell_reset
+Compiling module D_trigger_set
+Compiling module Insruction_reg_cell_set
+Compiling module Instruction_reg
+Compiling module I_Decoder
+Compiling module REG_TCK_Former
+Compiling module DR_MUX
+Compiling module Sel_MUX
+Compiling module OUT_TRIG
+Compiling module EN_BUF
+Compiling module Bypass_reg
+Compiling module ID_reg_cell
+Compiling module ID_reg_default
+Compiling module BSC
+Compiling module BS_register_default
+Compiling module BIST_reg_cell_reset
+Compiling module BIST_reg_default
+Compiling module Log_test_clk_generator
+Compiling module TAP_CONTROLLER
+Compiling module BIST_FSM
+Compiling module BIST_FSM_Decoder
+Compiling module BIST_counter
+Compiling module BIST_mem
+Compiling module BIST_bufer
+Compiling module BIST_Comand_Decoder
+Compiling module BIST_Comparator
+Compiling module BIST_out_bufer
+Compiling module For_logic_clk
+Compiling module BIST_block
+Compiling module FUNCTION_Module
+Compiling module DEMUX_2
+Compiling module BIST_Mode_DEMUX_default
+Compiling module TAP_and_UUL
+Compiling module TB_BIST
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 34 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Системе не удается найти указанный путь, "isim\TB_BIST_isim_beh.exe.sim\libPortability.dll".
+Compiled 41 Verilog Units
+Built simulation executable H:/Lab_2/TB_BIST_isim_beh.exe
+Fuse Memory Usage: 31776 KB
+Fuse CPU Usage: 905 ms

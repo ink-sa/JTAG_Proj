@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\JTAG_Proj\TAP_and_UUL.ncd
+OUTFILE=H:\JTAG_Proj\TAP_and_UUL.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-4fgg484
+WORKINGDIR=H:\JTAG_Proj
+LICENSE=WebPack
+USER_INFO=__0_0_0

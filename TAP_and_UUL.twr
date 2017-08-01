@@ -1,0 +1,347 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml TAP_and_UUL.twx TAP_and_UUL.ncd -o TAP_and_UUL.twr
+TAP_and_UUL.pcf -ucf Constr.ucf
+
+Design file:              TAP_and_UUL.ncd
+Physical constraint file: TAP_and_UUL.pcf
+Device,package,speed:     xc3s700an,fgg484,-4 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "TCK2_OBUF1" PERIOD = 200 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 261 paths analyzed, 243 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  16.058ns.
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF (SLICE_X52Y17.G3), 11 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     91.971ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               TAP_CONTROLLER_M/ID_reg_M/Cell_LSB/ID_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF (FF)
+  Requirement:          100.000ns
+  Data Path Delay:      3.440ns (Levels of Logic = 2)
+  Clock Path Skew:      -4.589ns (2.589 - 7.178)
+  Source Clock:         TAP_CONTROLLER_M/ID_t_clk_w rising at 0.000ns
+  Destination Clock:    TCK2_OBUF falling at 100.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: TAP_CONTROLLER_M/ID_reg_M/Cell_LSB/ID_t/q to TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X54Y32.YQ      Tcko                  0.676   TAP_CONTROLLER_M/ID_reg_M/Cell_LSB/ID_t/q
+                                                       TAP_CONTROLLER_M/ID_reg_M/Cell_LSB/ID_t/q
+    SLICE_X53Y30.G4      net (fanout=1)        0.413   TAP_CONTROLLER_M/ID_reg_M/Cell_LSB/ID_t/q
+    SLICE_X53Y30.X       Tif5x                 0.924   TAP_CONTROLLER_M/To_Sel_MUX_w
+                                                       TAP_CONTROLLER_M/DR_MUX_M/Mmux_To_Sel_MUX_4
+                                                       TAP_CONTROLLER_M/DR_MUX_M/Mmux_To_Sel_MUX_2_f5
+    SLICE_X52Y17.G3      net (fanout=1)        0.610   TAP_CONTROLLER_M/To_Sel_MUX_w
+    SLICE_X52Y17.CLK     Tgck                  0.817   TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+                                                       TAP_CONTROLLER_M/Sel_MUX_M/To_OUT_TRIG1
+                                                       TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    -------------------------------------------------  ---------------------------
+    Total                                      3.440ns (2.417ns logic, 1.023ns route)
+                                                       (70.3% logic, 29.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     93.772ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               TAP_CONTROLLER_M/Instruction_reg_M/Cell_2/Update_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF (FF)
+  Requirement:          100.000ns
+  Data Path Delay:      5.014ns (Levels of Logic = 3)
+  Clock Path Skew:      -1.214ns (2.589 - 3.803)
+  Source Clock:         TAP_CONTROLLER_M/IR_Com_t_clk_w rising at 0.000ns
+  Destination Clock:    TCK2_OBUF falling at 100.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: TAP_CONTROLLER_M/Instruction_reg_M/Cell_2/Update_t/q to TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X52Y20.YQ      Tcko                  0.676   TAP_CONTROLLER_M/Instruction_reg_M/Cell_2/Update_t/q
+                                                       TAP_CONTROLLER_M/Instruction_reg_M/Cell_2/Update_t/q
+    SLICE_X52Y31.G4      net (fanout=11)       1.022   TAP_CONTROLLER_M/Instruction_reg_M/Cell_2/Update_t/q
+    SLICE_X52Y31.Y       Tilo                  0.707   TAP_CONTROLLER_M/DR_Sel_w<1>
+                                                       TAP_CONTROLLER_M/I_Decoder_M/DR_Sel<1>1
+    SLICE_X53Y30.BX      net (fanout=1)        0.426   TAP_CONTROLLER_M/DR_Sel_w<1>
+    SLICE_X53Y30.X       Tbxx                  0.756   TAP_CONTROLLER_M/To_Sel_MUX_w
+                                                       TAP_CONTROLLER_M/DR_MUX_M/Mmux_To_Sel_MUX_2_f5
+    SLICE_X52Y17.G3      net (fanout=1)        0.610   TAP_CONTROLLER_M/To_Sel_MUX_w
+    SLICE_X52Y17.CLK     Tgck                  0.817   TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+                                                       TAP_CONTROLLER_M/Sel_MUX_M/To_OUT_TRIG1
+                                                       TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    -------------------------------------------------  ---------------------------
+    Total                                      5.014ns (2.956ns logic, 2.058ns route)
+                                                       (59.0% logic, 41.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     94.122ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               TAP_CONTROLLER_M/BS_reg_M/Cell_LSB/Capture_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF (FF)
+  Requirement:          100.000ns
+  Data Path Delay:      3.511ns (Levels of Logic = 2)
+  Clock Path Skew:      -2.367ns (2.589 - 4.956)
+  Source Clock:         TAP_CONTROLLER_M/BSC_Cap_t_clk_w rising at 0.000ns
+  Destination Clock:    TCK2_OBUF falling at 100.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: TAP_CONTROLLER_M/BS_reg_M/Cell_LSB/Capture_t/q to TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X54Y28.XQ      Tcko                  0.631   TAP_CONTROLLER_M/BS_reg_M/Cell_LSB/Capture_t/q
+                                                       TAP_CONTROLLER_M/BS_reg_M/Cell_LSB/Capture_t/q
+    SLICE_X53Y30.F1      net (fanout=2)        0.529   TAP_CONTROLLER_M/BS_reg_M/Cell_LSB/Capture_t/q
+    SLICE_X53Y30.X       Tif5x                 0.924   TAP_CONTROLLER_M/To_Sel_MUX_w
+                                                       TAP_CONTROLLER_M/DR_MUX_M/Mmux_To_Sel_MUX_3
+                                                       TAP_CONTROLLER_M/DR_MUX_M/Mmux_To_Sel_MUX_2_f5
+    SLICE_X52Y17.G3      net (fanout=1)        0.610   TAP_CONTROLLER_M/To_Sel_MUX_w
+    SLICE_X52Y17.CLK     Tgck                  0.817   TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+                                                       TAP_CONTROLLER_M/Sel_MUX_M/To_OUT_TRIG1
+                                                       TAP_CONTROLLER_M/OUT_TRIG_M/To_EN_BUF
+    -------------------------------------------------  ---------------------------
+    Total                                      3.511ns (2.372ns logic, 1.139ns route)
+                                                       (67.6% logic, 32.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/FSM_Decoder_M/Run_Test_Idle (SLICE_X50Y29.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     96.189ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd2 (FF)
+  Destination:          TAP_CONTROLLER_M/FSM_Decoder_M/Run_Test_Idle (FF)
+  Requirement:          100.000ns
+  Data Path Delay:      3.719ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.092ns (0.400 - 0.492)
+  Source Clock:         TCK2_OBUF rising at 0.000ns
+  Destination Clock:    TCK2_OBUF falling at 100.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd2 to TAP_CONTROLLER_M/FSM_Decoder_M/Run_Test_Idle
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X50Y13.XQ      Tcko                  0.631   TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd2
+                                                       TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd2
+    SLICE_X50Y29.G4      net (fanout=15)       2.271   TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd2
+    SLICE_X50Y29.CLK     Tgck                  0.817   TAP_CONTROLLER_M/FSM_Decoder_M/Update_DR
+                                                       TAP_CONTROLLER_M/FSM_Decoder_M/Mrom_Signal911
+                                                       TAP_CONTROLLER_M/FSM_Decoder_M/Run_Test_Idle
+    -------------------------------------------------  ---------------------------
+    Total                                      3.719ns (1.448ns logic, 2.271ns route)
+                                                       (38.9% logic, 61.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/FSM_Decoder_M/Shift_DR (SLICE_X53Y29.F3), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     96.275ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd3 (FF)
+  Destination:          TAP_CONTROLLER_M/FSM_Decoder_M/Shift_DR (FF)
+  Requirement:          100.000ns
+  Data Path Delay:      3.634ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.091ns (0.401 - 0.492)
+  Source Clock:         TCK2_OBUF rising at 0.000ns
+  Destination Clock:    TCK2_OBUF falling at 100.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd3 to TAP_CONTROLLER_M/FSM_Decoder_M/Shift_DR
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X50Y12.XQ      Tcko                  0.631   TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd3
+                                                       TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd3
+    SLICE_X53Y29.F3      net (fanout=16)       2.281   TAP_CONTROLLER_M/TAP_FSM_M/state_FSM_FFd3
+    SLICE_X53Y29.CLK     Tfck                  0.722   TAP_CONTROLLER_M/FSM_Decoder_M/Shift_DR
+                                                       TAP_CONTROLLER_M/FSM_Decoder_M/Mrom_Signal811
+                                                       TAP_CONTROLLER_M/FSM_Decoder_M/Shift_DR
+    -------------------------------------------------  ---------------------------
+    Total                                      3.634ns (1.353ns logic, 2.281ns route)
+                                                       (37.2% logic, 62.8% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "TCK2_OBUF1" PERIOD = 200 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Update_t/q (SLICE_X51Y35.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.068ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Capture_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Update_t/q (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.077ns (Levels of Logic = 0)
+  Clock Path Skew:      1.009ns (4.407 - 3.398)
+  Source Clock:         TAP_CONTROLLER_M/BIST_Sh_t_clk_w rising at 200.000ns
+  Destination Clock:    TAP_CONTROLLER_M/BIST_Com_t_clk_w rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Capture_t/q to TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Update_t/q
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X50Y34.YQ      Tcko                  0.541   TAP_CONTROLLER_M/BIST_reg_M/regis[7].Cell_t/Capture_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Capture_t/q
+    SLICE_X51Y35.BY      net (fanout=2)        0.396   TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Capture_t/q
+    SLICE_X51Y35.CLK     Tckdi       (-Th)    -0.140   TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Update_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[9].Cell_t/Update_t/q
+    -------------------------------------------------  ---------------------------
+    Total                                      1.077ns (0.681ns logic, 0.396ns route)
+                                                       (63.2% logic, 36.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Update_t/q (SLICE_X52Y32.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.087ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Capture_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Update_t/q (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.153ns (Levels of Logic = 0)
+  Clock Path Skew:      1.066ns (4.459 - 3.393)
+  Source Clock:         TAP_CONTROLLER_M/BIST_Sh_t_clk_w rising at 200.000ns
+  Destination Clock:    TAP_CONTROLLER_M/BIST_Com_t_clk_w rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Capture_t/q to TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Update_t/q
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X50Y33.XQ      Tcko                  0.505   TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Capture_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Capture_t/q
+    SLICE_X52Y32.BY      net (fanout=2)        0.475   TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Capture_t/q
+    SLICE_X52Y32.CLK     Tckdi       (-Th)    -0.173   TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Update_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[10].Cell_t/Update_t/q
+    -------------------------------------------------  ---------------------------
+    Total                                      1.153ns (0.678ns logic, 0.475ns route)
+                                                       (58.8% logic, 41.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Update_t/q (SLICE_X50Y35.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.108ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Capture_t/q (FF)
+  Destination:          TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Update_t/q (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.033ns (Levels of Logic = 0)
+  Clock Path Skew:      0.925ns (4.407 - 3.482)
+  Source Clock:         TAP_CONTROLLER_M/BIST_Sh_t_clk_w rising at 200.000ns
+  Destination Clock:    TAP_CONTROLLER_M/BIST_Com_t_clk_w rising at 200.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Capture_t/q to TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Update_t/q
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X49Y35.XQ      Tcko                  0.473   TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Capture_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Capture_t/q
+    SLICE_X50Y35.BY      net (fanout=2)        0.387   TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Capture_t/q
+    SLICE_X50Y35.CLK     Tckdi       (-Th)    -0.173   TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Update_t/q
+                                                       TAP_CONTROLLER_M/BIST_reg_M/regis[3].Cell_t/Update_t/q
+    -------------------------------------------------  ---------------------------
+    Total                                      1.033ns (0.646ns logic, 0.387ns route)
+                                                       (62.5% logic, 37.5% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "TCK2_OBUF1" PERIOD = 200 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 198.398ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 200.000ns
+  Low pulse: 100.000ns
+  Low pulse limit: 0.801ns (Tcl)
+  Physical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CLK
+  Logical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CK
+  Location pin: SLICE_X44Y24.CLK
+  Clock network: TAP_CONTROLLER_M/BSC_Up_t_clk_w
+--------------------------------------------------------------------------------
+Slack: 198.398ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 200.000ns
+  High pulse: 100.000ns
+  High pulse limit: 0.801ns (Tch)
+  Physical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CLK
+  Logical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CK
+  Location pin: SLICE_X44Y24.CLK
+  Clock network: TAP_CONTROLLER_M/BSC_Up_t_clk_w
+--------------------------------------------------------------------------------
+Slack: 198.398ns (period - min period limit)
+  Period: 200.000ns
+  Min period limit: 1.602ns (624.220MHz) (Tcp)
+  Physical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CLK
+  Logical resource: TAP_CONTROLLER_M/BS_reg_M/regis[4].Cell_t/Update_t/q/CK
+  Location pin: SLICE_X44Y24.CLK
+  Clock network: TAP_CONTROLLER_M/BSC_Up_t_clk_w
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock TCK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TCK            |    6.673|    3.083|    8.029|    1.901|
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 261 paths, 0 nets, and 370 connections
+
+Design statistics:
+   Minimum period:  16.058ns{1}   (Maximum frequency:  62.274MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Tue Aug 01 10:41:43 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 254 MB
+
+
+

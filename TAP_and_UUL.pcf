@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Aug 01 10:40:51 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "TDI" LOCATE = SITE "AA21" LEVEL 1;
+COMP "TCK" LOCATE = SITE "AB19" LEVEL 1;
+PIN TCK_pin<0> = BEL "TCK" PINNAME PAD;
+PIN "TCK_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "TDO" LOCATE = SITE "AB21" LEVEL 1;
+COMP "TMS" LOCATE = SITE "AA19" LEVEL 1;
+COMP "clk_50MHz" LOCATE = SITE "E12" LEVEL 1;
+COMP "TDI2" LOCATE = SITE "V14" LEVEL 1;
+COMP "TCK2" LOCATE = SITE "V16" LEVEL 1;
+COMP "TDO2" LOCATE = SITE "V15" LEVEL 1;
+COMP "TMS2" LOCATE = SITE "W16" LEVEL 1;
+COMP "Par_out<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "Par_out<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "Par_out<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "Par_out<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "Par_in<0>" LOCATE = SITE "V8" LEVEL 1;
+COMP "Par_in<1>" LOCATE = SITE "U10" LEVEL 1;
+COMP "Par_in<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "Par_in<3>" LOCATE = SITE "T9" LEVEL 1;
+COMP "Par_in<4>" LOCATE = SITE "T15" LEVEL 1;
+COMP "Par_in<5>" LOCATE = SITE "T16" LEVEL 1;
+NET "TCK2_OBUF1" PERIOD = 200 ns HIGH 50%;
+SCHEMATIC END;
+
